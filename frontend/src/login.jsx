@@ -104,7 +104,13 @@ function Login() {
             <button className="login-btn" onClick={handleLogin}>
               login... <span className="arrow">→</span>
             </button>
-           
+            <span 
+              className="forgot" 
+              onClick={() => navigate("/forgot-password")}
+              style={{ cursor: "pointer" }}
+            >
+              Forgot Password?
+            </span>
           </div>
 
         
