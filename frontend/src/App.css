@@ -250,6 +250,8 @@ body {
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* my page completed */
+
 .login-page.dark .fan-center {
   background: radial-gradient(circle at 30% 30%, #ffd700, #b8860b);
   box-shadow: 0 0 40px #ffd700;
